@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/background_desck.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+.foto_icone{
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 41px;
+    top: 35px;
+}
+
+.conteudo_header{
+    
+    
+}
+.conteudo_informacao{
+    display: flex;
+    justify-content:  center;
+    gap: 40px;
+    padding-right: 5%;
+    padding-top: 55px;
+    font-size: 12px;
+    font-weight: 300;
+    
+}
+.titulo_header{
+    position: absolute;
+    left: 142px;
+    top: 40px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: bold;
+    line-height: 39px;
+}
+.smoky{
+    position: absolute;
+    width: 323px;
+    height: 70px;
+    left: 71px;
+    top: 240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #9DBC5B;
+}
+.quench{
+    position: absolute;
+    width: 419px;
+    height: 52px;
+    left: 71px;
+    top: 280px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+.texto_informacao{
+
+    position: absolute;
+    width: 476px;
+    height: 116px;
+    left: 71px;
+    top: 350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.botao_quench{
+font-size: 24px;
+position: absolute;
+width: 223px;
+height: 56px;
+left: 71px;
+top: 500px;
+background-color: #9DBC5B;
+border-radius: 28px;
+color: white;
+border: none;
+text-align: center;
+text-decoration: none;
+display: inline;
+
+
+}
